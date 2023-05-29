@@ -1,0 +1,103 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.container-content {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 3;
+}
+.navbar-brand {
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.navigation > a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    transition: all .2s ease-in-out; 
+}
+.navigation > a:hover {
+    transform: scale(1.3);
+}
+#hero {
+    margin: 0;
+    padding: 0;
+}
+.card-body > H2 {
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.card-body > H1 {
+    padding-left: 15px;
+}
+.col-6 {
+    padding-left: 30px;
+}
+#tree {
+    height: 258px;
+    width: 409px;
+}
+#soccer {
+    height: 258px;
+    width: 409px;
+}
+.sched {
+    padding-bottom: 10px;
+}
+.events > h5 {
+    padding-bottom: 10px;
+}
+.carouselExampleIndicators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    padding-top: 20px;
+}
+.map {
+    padding-left: 20px;
+}
+.map-content > h5 {
+    padding-left: 20px;
+}
+.map-content > p {
+    padding-left: 20px;
+}
+.footer-container {
+    height: 250px;
+    background-color: rgb(1, 0, 75);
+    color: white;
+    padding-top: 20px;
+    display: flex;
+}
+#contact > h4 {
+    padding-bottom: 10px;
+}
+.emailme{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 3;
+    padding-right: 50px;
+}
+.d-block { 
+    width:700px; 
+    height:350px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
